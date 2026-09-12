@@ -309,4 +309,4 @@ async def off_command(interaction: discord.Interaction):
 # ============================================================
 server_on()
 
-bot.run(os.gatenv('TOKEN'))
+bot.run(os.getenv('TOKEN'))
